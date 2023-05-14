@@ -4,7 +4,7 @@ TEXTO: New Media from Borges to HTML
 
 integrantes:
 -Karina Contreras
--
+-Pía Garrido Morán
 -Martín Núñez
 -
 -
