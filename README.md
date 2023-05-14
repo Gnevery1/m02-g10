@@ -7,7 +7,7 @@ integrantes:
 -
 -Martín Núñez
 -
--Pía Garrido Morán
 -
+-Pía Garrido Morán
 -
 -Antonia Zúñiga
