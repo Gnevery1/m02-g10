@@ -9,3 +9,4 @@ Integrantes:
 - Pía Garrido Morán
 - Antonia Zúñiga
 - Isidora Rodríguez
+- Sofía Bezanilla
