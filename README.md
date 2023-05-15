@@ -2,13 +2,10 @@
 DTS, Repositorio de grupo 10 😎👍
 TEXTO: New Media from Borges to HTML
 
-integrantes:
+Integrantes:
 
--Karina Contreras
--
--Martín Núñez
--
--
--Pía Garrido Morán
--
--Antonia Zúñiga
+- Karina Contreras
+- Martín Núñez
+- Pía Garrido Morán
+- Antonia Zúñiga
+- Isidora Rodríguez
