@@ -10,3 +10,4 @@ Integrantes:
 - Antonia Zúñiga
 - Isidora Rodríguez
 - Sofía Bezanilla
+- Florencia Aros
