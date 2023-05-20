@@ -4,10 +4,11 @@ TEXTO: New Media from Borges to HTML
 
 Integrantes:
 
-- Karina Contreras
-- Martín Núñez Montagna
-- Pía Garrido Morán
-- Antonia Zúñiga
-- Isidora Rodríguez
-- Sofía Bezanilla
 - Florencia Aros
+- Sofía Bezanilla
+- Karina Contreras
+- Pía Garrido Morán
+- Martín Núñez Montagna
+- Isidora Rodríguez
+- Antonia Zúñiga
+
