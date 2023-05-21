@@ -1,10 +1,85 @@
+body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #000;
+        }
 
-body{ /* body selecciona el cuerpo general y lo pinta */
-	background-color: black; /* https://www.w3schools.com/colors/colors_names.asp */  
-	font-family: 'Open Sans', sans-serif;
-			}
 
-h1 {
-	color: white;
-}
+        #eye-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
 
+        #eye {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            background-color: #fff;
+            border-radius: 50%;
+            margin-bottom: 50px;
+        }
+        
+        #pupil {
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            background-color: #000;
+            border-radius: 50%;
+            top: 60px;
+            left: 60px;
+        }
+        
+        #menu-bar {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 50px;
+            background-color: #f0f0f0;
+        }
+        
+        #menu-bar ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+        
+        #menu-bar li {
+            margin: 0 10px;
+        }
+        
+        #menu-bar li a {
+            color: #333;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+                #footer {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 70px;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+        
+        #footer .top-line {
+            height: 100px;
+            line-height: 50px;
+            font-size: 100px;
+            font-weight: bold;
+        }
+        
+        #footer .bottom-line {
+            height: 20px;
+            line-height: 20px;
+            font-size: 14px;
+        }
