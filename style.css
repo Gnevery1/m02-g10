@@ -4,6 +4,10 @@ body{ /* body selecciona el cuerpo general y lo pinta */
 	font-family: 'Open Sans', sans-serif;
 			}
 
+h1 {
+	color: white;
+}
+
 #introduccion{/* selecciona el div y lo pinta */
 	width: 900px;
 	padding: 20px 0px;
