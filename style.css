@@ -1,3 +1,110 @@
+body {background-color: black;
+}
+
+
+
+
+h1 {
+position: absolute;
+width: 700px;
+height: 219px;
+left: -100px;
+top: 50px;
+
+font-family: 'Inter';
+font-style: normal;
+
+font-size: 10vh;
+
+
+color:white;
+
+transform: rotate(-90deg);
+    
+}
+
+
+
+.autor {position: absolute;
+width: 650px;
+height: 350px;
+left: 370px;
+top: 150px;}
+
+
+.golan{
+     position: absolute;
+    width: 362px;
+    height: 324px;
+   left: 360px;
+   top: 530px;
+
+ font-family: 'Inter';
+   font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+color: white;
+display: flex;
+margin-right: 30 px 0px;
+text-align: left;
+}
+
+
+.des {
+position: absolute;
+width: 440px;
+height: 200px;
+left: 670px;
+top: 512px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+color: white;
+  margin-right: 0 px 30px;
+  font-family: Arial, Helvetica, sans-serif;
+ display: flex;
+
+
+}
+
+  #footer {
+            position: absolute;
+            bottom: 10;
+            left: 0;
+            width: 100%;
+            height:120px;
+            background-color: #000;
+            text-align: center;
+        }
+        
+        #footer .top-line {
+            height: 50px;
+            line-height: 50px;
+            font-size: 80px;
+            font-weight: bold;
+            color: #fff;
+            font-family: 'Courier Prime', monospace;
+        }
+         #footer .space {
+            height: 20px;
+            line-height: 20px;
+            font-size: 25px;
+            color: #fff;
+            margin-bottom: 10px;
+        }
+        #footer .bottom-line {
+            height: 20px;
+            line-height: 20px;
+            font-size: 25px;
+            color: #fff;
+            margin-bottom: 10px;
+        }
 body {
             margin: 0;
             padding: 0;
@@ -7,10 +114,7 @@ body {
 
 {box-sizing: border-box;}
 
-body { 
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
+
 
 .header {
   overflow: hidden;
@@ -57,82 +161,15 @@ body {
   }
   
   .header-right {
-    float: none;
-  }
-}
-        #eye-container {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-
-        #eye {
-            position: relative;
-            width: 300px;
-            height: 300px;
-            background-color: #fff;
-            border-radius: 50%;
-            margin-bottom: 50px;
-            overflow: hidden;
-        }
-        
-        #pupil {
-            position: absolute;
-            width: 175px;
-            height: 175px;
-            background-color: #000;
-            border-radius: 50%;
-            top: 60px;
-            left: 60px;
-        }
+    float: none;}
 
 
-                
-        
-
-                #footer {
-            position: absolute;
-
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            height: 150px;
-            background-color: #000000;
-            text-align: center;
-
-        }
-        
-
-  #footer {
-            position: absolute;
-            bottom: 10;
-            left: 0;
-            width: 100%;
-            height:120px;
-            background-color: #000;
-            text-align: center;
-        }
-        
-        #footer .top-line {
-            height: 50px;
-            line-height: 50px;
-            font-size: 80px;
-            font-weight: bold;
-            color: #fff;
-            font-family: 'Courier Prime', monospace;
-        }
-         #footer .space {
-            height: 20px;
-            line-height: 20px;
-            font-size: 25px;
-            color: #fff;
-            margin-bottom: 10px;
-        }
-        #footer .bottom-line {
-            height: 20px;
-            line-height: 20px;
-            font-size: 25px;
-            color: #fff;
-            margin-bottom: 10px;
-        }
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
