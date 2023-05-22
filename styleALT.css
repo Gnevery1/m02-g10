@@ -239,4 +239,15 @@ body {
   height: 200px;
   padding: 10px;
   color: white;
-  margin-top: -20px; /* Adjust the margin value to reduce the space */
+  margin-top: -20px; /* Adjust the margin value to reduce the space */}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
