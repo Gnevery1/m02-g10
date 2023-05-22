@@ -186,14 +186,15 @@ body {
 }
 
 .image-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto auto;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
   min-height: 100vh;
   margin-top: -610px;
-  padding-top: 180px;
+  padding-top: 10px;
   box-sizing: border-box;
 }
 
@@ -206,13 +207,14 @@ body {
 
 .image-container img {
   width: 440px;
-  margin: 50px;
+  margin: 0px;
 }
 
 .image-container img.con1 {
   width: 440px;
   height:330px;
-  margin: 50px;
+  margin-top: 70px;
+  margin-left: 50px;
 
 }
 
@@ -224,6 +226,18 @@ body {
   color: white;
   margin-top: -20px; /* Adjust the margin value to reduce the space */
 
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
 }
 
 
