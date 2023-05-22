@@ -165,24 +165,32 @@ body {
 /* HTML6 */
 
 h1 {
-    color: white;
+  color: white;
 }
 
 .opto {
   writing-mode: vertical-lr;
   transform: rotate(-180deg);
   font-size: 30px;
-  height: 68vh;
-  font-family: 'Inter';
+  height: 90vh; /* Increase the height to make the content longer */
+  font-family: 'Inter', sans-serif;
   font-weight: 300;
   line-height: 36px;
 }
 
 body {
   overflow-y: scroll;
-  height: 100vh;
+  height: 120vh;
   margin: 0;
   padding: 0;
+}
+
+.image-container {
+  margin-bottom: 150px;
+}
+
+footer {
+  margin-top: 50px;
 }
 
 .image-container {
@@ -192,7 +200,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
-  min-height: 100vh;
+  min-height: 60vh;
   margin-top: -610px;
   padding-top: 10px;
   box-sizing: border-box;
@@ -208,6 +216,7 @@ body {
 .image-container img {
   width: 440px;
   margin: 0px;
+  margin-top: 40px;
 }
 
 .image-container img.con1 {
@@ -218,16 +227,14 @@ body {
 
 }
 
-
 .image-text {
   width: 440px;
   height: 200px;
   padding: 10px;
   color: white;
-  margin-top: -20px; /* Adjust the margin value to reduce the space */
+  margin-top: 40px; /* Adjust the margin value to reduce the space */
 
 }
-
 
 footer {
   position: fixed;
